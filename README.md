@@ -15,10 +15,10 @@ We expect students to join the course several months after starting their PhD al
 
 ### Day 2 - Reproducible designs, protocols and pre-registration
 
-Concepts and tools for protocol documentation, and study pre-registration - lecture (1.5h)
-Case studies - exercise (1h)
-Using markdown for documentation - practical (1/2h)
-Version control and social coding with Git and GitHub - practical (3h) 
+- Concepts and tools for protocol documentation, and study pre-registration - lecture (1.5h)
+- Case studies - exercise (1h)
+- Using markdown for documentation - practical (1/2h)
+- Version control and social coding with Git and GitHub - practical (3h) 
 
 ### Course work
 
@@ -32,7 +32,7 @@ Using your PhD research data, protocol, code, etc, write a report explaining fro
 - Good coding practices - lecture and exercises (2h)
 - Time to update your code - practical from student's own analysis scripts (3h)
 
-### Day 4 - Better analyses (6 hours, 7 hour days 9-16)
+### Day 4 - Better analyses 
 
 - P-hacking your data - lecture (1h)
 - Encapsulate code for reproducibility using containers (2h)
