@@ -4,6 +4,8 @@ The course structure is over 5 days plus personal work: 2 days, course work, 2 d
 
 We expect students to join the course several months after starting their PhD allowing them to already have data and some code. This will allow applying the concepts developed to their own data and code. 
 
+We'll use [padlet](https://padlet.com/dashboard) to interact with each other 
+
 ## Part 1
 
 ### Day 1 - Data Collection and data storage
@@ -19,7 +21,7 @@ We expect students to join the course several months after starting their PhD al
 - Concepts and tools for protocol documentation, and study pre-registration - lecture (1.5h)
 - Case studies - exercise (1h)
 - Using markdown for documentation - practical (1/2h)
-- Version control and social coding with Git and GitHub - practical (3h) 
+- Version control and social coding with Git and GitHub - practical, split in novice/advanced course (3h) 
 
 ### Course work
 
