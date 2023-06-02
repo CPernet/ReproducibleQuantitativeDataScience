@@ -8,8 +8,9 @@ We expect students to join the course several months after starting their PhD al
 
 ### Day 1 - Data Collection and data storage
 
-- Introduction to reproducibility: Definitions and origins (1h) Reproducibility is hard: issues (1 h)
+- Introduction to reproducibility: Definitions and origins (1h) 
 - Data provenance: keeping track of where data are coming from - lecture and exercises (1h)
+- Reproducibility is hard: issues (1 h)
 - How do you store data on your computer? Data structures and data naming - lecture and exercises (1h)
 - Ethic and GDPR - lecture and practical case reviews (2h)
 
