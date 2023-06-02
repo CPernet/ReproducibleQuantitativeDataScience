@@ -13,6 +13,7 @@ We'll use [padlet](https://padlet.com/dashboard) to interact with each other
 - Introduction to reproducibility: Definitions and origins (1h) 
 - How do you store data on your computer? Data structures and data naming - lecture and exercises (1h)
 - Data provenance: keeping track of where data are coming from - lecture and exercises (1h)
+// lunch
 - Reproducibility is hard: case study (1 h)
 - Ethic and GDPR - lecture and practical case reviews (2h)
 
