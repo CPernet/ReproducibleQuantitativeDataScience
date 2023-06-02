@@ -11,9 +11,9 @@ We'll use [padlet](https://padlet.com/dashboard) to interact with each other
 ### Day 1 - Data Collection and data storage
 
 - Introduction to reproducibility: Definitions and origins (1h) 
+- How do you store data on your computer? Data structures and data naming - lecture and exercises (1h)
 - Data provenance: keeping track of where data are coming from - lecture and exercises (1h)
 - Reproducibility is hard: case study (1 h)
-- How do you store data on your computer? Data structures and data naming - lecture and exercises (1h)
 - Ethic and GDPR - lecture and practical case reviews (2h)
 
 ### Day 2 - Reproducible designs, protocols and pre-registration
