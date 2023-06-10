@@ -10,18 +10,17 @@ We'll use [padlet](https://padlet.com/dashboard) to interact with each other
 
 ### Day 1 - Data Collection and data storage
 
-- Introduction to reproducibility: Definitions and origins (1h) 
-- How do you store data on your computer? Data structures and data naming - lecture and exercises (1h)
-- Data provenance: keeping track of where data are coming from - lecture and exercises (1h)
-- Reproducibility is hard: case study (1 h)
-- Ethic and GDPR - lecture and practical case reviews (2h)
+- Introduction to reproducibility: Definitions and origins (CP) 
+- How do you store data on your computer? Data structures and data naming (RO)
+- Data provenance: keeping track of where data are coming from (MG)
+- Reproducibility is hard: case study (all)
 
 ### Day 2 - Reproducible designs, protocols and pre-registration
 
-- Concepts and tools for protocol documentation, and study pre-registration - lecture (1.5h)
-- Case studies - exercise (1h)
-- Using markdown for documentation - practical (1/2h)
-- Version control and social coding with Git and GitHub - practical, split in novice/advanced course (3h) 
+- Concepts and tools for protocol documentation, and study pre-registration (CP)
+- Ethic and GDPR - lecture and practical case reviews (CP & RO)
+- Using markdown for documentation - practical (MG)
+- Version control and social coding with Git and GitHub - practical, split in novice/advanced course (all) 
 
 ### Course work
 
