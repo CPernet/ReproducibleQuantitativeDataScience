@@ -19,8 +19,8 @@ We'll use [padlet](https://padlet.com/dashboard) to interact with each other
 
 - Concepts and tools for protocol documentation, and study pre-registration (CP)
 - Ethic and GDPR - lecture and practical case reviews (CP & RO)
-- Using [markdown](https://www.markdownguide.org/cheat-sheet/) for documentation - practical (MG)
-- Version control and social coding with Git and GitHub - practical, split into novice/advanced groups (all) 
+- Using markdown [cheat sheet](https://www.markdownguide.org/cheat-sheet/) for documentation - practical (MG)
+- Version control and social coding with Git ([quick sheet](https://github.com/CPernet/Quicksheets/blob/main/git_github/git.mkd)) and GitHub - practical, split into novice/advanced groups (all) 
 
 ### Course work
 
