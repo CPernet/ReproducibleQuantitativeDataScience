@@ -13,14 +13,14 @@ We'll use [padlet](https://padlet.com/dashboard) to interact with each other
 - Introduction to reproducibility: Definitions and origins (CP) 
 - How do you store data on your computer? Data structures and data naming (RO)
 - Data provenance: keeping track of where data are coming from (MG)
-- Reproducibility is hard: case study (all)
+- Reproducibility is hard: [case studies](http://www.practicereproducibleresearch.org/core-chapters/4-casestudies.html) (all)
 
 ### Day 2 - Reproducible designs, protocols and pre-registration
 
 - Concepts and tools for protocol documentation, and study pre-registration (CP)
 - Ethic and GDPR - lecture and practical case reviews (CP & RO)
 - Using markdown for documentation - practical (MG)
-- Version control and social coding with Git and GitHub - practical, split in novice/advanced course (all) 
+- Version control and social coding with Git and GitHub - practical, split into novice/advanced groups (all) 
 
 ### Course work
 
