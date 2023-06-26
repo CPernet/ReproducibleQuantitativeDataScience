@@ -36,9 +36,10 @@ Using your PhD research data, protocol, code, etc, write a report explaining fro
 
 ### Day 4 - Better analyses 
 
-- P-hacking your data - lecture (1h)
-- Encapsulate code for reproducibility using containers (2h)
-- An introduction to computational analysis methods: permutation, bootstrap, cross-validation, out-of-sample generalization - lecture and exercises (3hours)
+- P-hacking your data - lecture
+- understanding p-values (notebook)
+- Encapsulate code for reproducibility using containers 
+- An introduction to computational analysis methods: permutation, bootstrap, cross-validation, out-of-sample generalization - lecture and exercises
 
 ### Course work 
 
