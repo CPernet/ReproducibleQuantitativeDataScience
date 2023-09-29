@@ -39,7 +39,7 @@ Submit your coursework by September 15th either via e-mail to Cyril and Melanie 
 ### Day 4 - Better analyses 
 
 - P-hacking your data - lecture
-- understanding p-values (notebook)
+- Understanding p-values (see [notebook](https://github.com/CPernet/ReproducibleQuantitativeDataScience/tree/main/p_values))
 - An introduction to computational analysis methods: permutation, bootstrap, cross-validation, out-of-sample generalization - lecture and exercises
 - Encapsulate code for reproducibility using containers (3 hours)
 
