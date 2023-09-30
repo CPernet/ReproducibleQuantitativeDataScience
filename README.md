@@ -32,9 +32,9 @@ Submit your coursework by September 15th either via e-mail to Cyril and Melanie 
 
 ### Day 3 - Better coding 
 
-- Literate programming - lecture and exercises (1h)
-- Good coding practices - lecture and exercises (2h)
-- Time to update your code - practical from student's own analysis scripts (3h)
+- Programming - lecture and exercises
+- Good coding practices - lecture and exercises
+- Time to update your code - update your own scripts and functions, work in teams and with teachers, review each other work (3h)
 
 ### Day 4 - Better analyses 
 
