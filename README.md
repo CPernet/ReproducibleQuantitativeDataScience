@@ -32,16 +32,16 @@ Submit your coursework by September 15th either via e-mail to Cyril and Melanie 
 
 ### Day 3 - Better coding 
 
-- Programming 
-- Good coding practices 
-- An introduction to computational analysis methods: permutation, bootstrap, cross-validation, out-of-sample generalization
-- Time to update your code - update your own scripts and functions, work in teams and with teachers, review each other work
+- Programming (CP)
+- Good coding practices (CP) 
+- An introduction to computational analysis methods: permutation, bootstrap, cross-validation, out-of-sample generalization (MG)
+- Time to update your code - update your own scripts and functions, work in teams and with teachers, review each other work (MG & CP)
 
 ### Day 4 - Better analyses 
 
-- P-hacking your data - lecture
+- P-hacking your data - lecture (CP)
 - Understanding p-values (see [notebook](https://github.com/CPernet/ReproducibleQuantitativeDataScience/tree/main/p_values))
-- Update your own scripts and functions, work in teams and with teachers, review each other work
+- Feedback on coursework and discuss further issue to make your PhD reproducible (MG, MH, CP)
 - Encapsulate code for reproducibility using containers (all afternoon - [install docker on your own machine](https://docs.docker.com/engine/install/) before the course so you can use a container and then build a container)
 
 ### Course work 
