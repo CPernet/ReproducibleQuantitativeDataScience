@@ -42,7 +42,7 @@ Submit your coursework by September 15th either via e-mail to Cyril and Melanie 
 - P-hacking your data - lecture (CP)
 - Understanding p-values (see [notebook](https://github.com/CPernet/ReproducibleQuantitativeDataScience/tree/main/p_values))
 - Feedback on coursework and discuss further issue to make your PhD reproducible (MG, MH, CP)
-- Computational reproducibility (lecture and practical all afternoon -- MH). 
+- Computational reproducibility (lecture and practical all afternoon -- Michael Hanke -- lecture slides @https://files.inm7.de/mih/pres/talks/rdm_reproducibility_copenhagen2023.html#). 
 
 Please prepare before the course:
   - [install docker on your own machine](https://docs.docker.com/engine/install/) so you can use a container and then build a container.
