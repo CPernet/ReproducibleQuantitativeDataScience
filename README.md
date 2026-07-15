@@ -1,7 +1,6 @@
 # ReproducibleQuantitativeDataScience
 
-A course prepared by Dr Melanie Ganz and Dr Cyril Pernet, with amazing guests: Dr Robert Oostenveld (RO), Dr Michael Hanke (MH) and Dr Nikola Stikov (NS).
-The course structure is over 5 days plus personal work: 2 days, course work, 2 days, course work, and 1 day with presentations.
+A course prepared by Dr Melanie Ganz and Dr Cyril Pernet, with amazing guests: Dr Robert Oostenveld, Dr Michael Hanke, Dr Nikola Stikov, and Dr Russ Poldrack. The course structure is over 5 days plus personal work: 2 days, course work, 2 days, course work, and 1 day with presentations.
 
 **For teachers**: We expect students to join the course several months after starting their PhD allowing them to already have data and some code. This will allow them to apply the concepts developed to their own data and code. It is also expected to have a platform to interact with students via a 'wall' with notes. 
 
