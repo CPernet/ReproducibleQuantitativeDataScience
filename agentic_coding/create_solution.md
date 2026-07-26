@@ -14,9 +14,9 @@ echo "This repository is hosting a python code for regresion analyses and preduc
 cp /c/Users/adm-cyril/Downloads/ReproducibleQuantitativeDataScience/provenance/MelsIceCreamHabits.csv /c/Users/adm-cyril/Downloads/MelsIceCream/data.csv
 ```
 
-# 3. Next we can make a plan
+# 3. Next, make a plan
 
-Using agent mode and the model you want to make a plan. (you can choose in the chat box among 'gent', 'chat', 'plan').
+Use the plan mode and the model you want (you can choose in the chat box among 'agent', 'chat', 'plan').
 
 We are using Melanies' ice cream count to fit different regression models.
 
@@ -27,7 +27,7 @@ We are using Melanies' ice cream count to fit different regression models.
    ```
 3. Answer questions, add things that 'may' be needed to good programing and coding.
 4. Execute the plan and git add/commit.
-5. Add testing.
+5. Add testing and git add/commit. The diff can help checking what has changed.
    ```Plain
    Generate unit tests for IceCreamRegression.py we just completed. Derive expected behaviour from the original requirements (spec.md), not merely from the current implementation. Include nominal cases, boundary conditions, malformed inputs, and regression cases. Use the pytest testing framework.
    ```
@@ -38,5 +38,5 @@ Start a new chat. Add the context.
 New prompt:
 
 ```Plain
-Act as an independent test engineer. Read spec.md and inspect the implementation, but do not assume the implementation is correct. Identify missing behaviours, boundary cases, invalid inputs, and assumptions not currently tested. Add tests that would reveal plausible implementation defects. Generate tests for all methods using made up data to mach each regression model expectation and test if it works. Do not change the tests simply to make them run, unless there is a clear problem with the test itself. Generate a report on test results.
+Act as an independent test engineer. Read spec.md and inspect the implementation, but do not assume the implementation is correct. Identify missing behaviours, boundary cases, invalid inputs, and assumptions not currently tested. Add tests that would reveal plausible implementation defects. Generate tests for all methods using made up data to mach each regression model expectation and test if it works. Do not change the tests simply to make them run, unless there is a clear problem with the test itself. Generate a report on test results and make a plan for solution to implement (do not execute yet).
 ```
