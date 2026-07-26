@@ -23,13 +23,13 @@ We are using Melanies' ice cream count to fit different regression models.
 1. add spec.md to the context
 2. prompt to make a plan
    ```Plain
-   "Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. I want to be able to choose between many different regression models, using different polynomials (1,2,3), splines, with/witout interscepts, and compare them using RMSE and BIC. I need to also be able to predict non observed values, by default 40 degrees. Similalry, the default is to use all models, but this can be specified as an option. Write clean code with concise numpy-style docstrings"
+   "Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. The design must follow the sepc.md description. The data loader should take any file as input (but assuming column headers is ok). It should also clean the data, such as negative ice cream count is impossible. For the compute part, I want to be able to choose between many different regression models, using different polynomials (order 1,2,3), splines, with/witout interscepts, and compare them using RMSE and BIC. I need to also be able to predict non observed values, by default 40 degrees. Similalry, the default is to use all models, but this can be specified as an option. The output, part takes the regression values, compare and rank them, do plots of results and errors. Write clean code with concise numpy-style docstrings. Comment trough the code. Use litterate programming with a header for IceCreamRegression.py. For each major section explain what is happening. Write a readme file to doucument the code and usage"
    ```
 3. Answer questions, add things that 'may' be needed to good programing and coding.
 4. Execute the plan and git add/commit.
 5. Add testing.
    ```Plain
-   Generate unit tests for IceCreamRegression.py we just completed. Derive expected behaviour from the original requirements, not merely from the current implementation. Include nominal cases, boundary conditions, malformed inputs, and regression cases. Use the pytest testing framework.
+   Generate unit tests for IceCreamRegression.py we just completed. Derive expected behaviour from the original requirements (spec.md), not merely from the current implementation. Include nominal cases, boundary conditions, malformed inputs, and regression cases. Use the pytest testing framework.
    ```
 
 # 4. Add independent testing
