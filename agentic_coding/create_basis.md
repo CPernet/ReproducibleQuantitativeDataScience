@@ -10,7 +10,7 @@ git init
 
 ```Shell
 touch spec.md  
-echo "This repository is hosting a python code for regresion analyses and preduction based on those models. It uses different functions to load data, to compute each regression and to export the output, allowing user to decide which model is best." > spec.md  
+echo "This repository is hosting a python code for regresion analyses and preduction based on those models. The workflow uses 3 separate instances; a data loader, a compute part taking the data frame from the loader and computing several regression models, and the export part taking the regression model outputs, to comparing and rank them, allowing user to decide which model is best." > spec.md  
 cp /c/Users/adm-cyril/Downloads/ReproducibleQuantitativeDataScience/provenance/MelsIceCreamHabits.csv /c/Users/adm-cyril/Downloads/MelsIceCream/data.csv
 ```
 
