@@ -44,7 +44,7 @@ Using your PhD research data, protocol, code, etc, write a report explaining fro
 - Time to update your code - implement some of the practices discussed today using agentic coding, let's review each other work/discuss. Tip: don't forget to version control your code, makes it easier to see what the agent changes.
 
 *Please prepare before the course*:  
-Install [VSCode](https://code.visualstudio.com/download), open it and sign into your github account.  Make sure agents are enabled in your VS Code settings
+Install [VSCode](https://code.visualstudio.com/download), open it and sign into your github account.  Make sure agents are enabled in your VS Code settings. You can use Copilot for free by signing up for the [Copilot Free plan](https://github.com/settings/copilot/features) and get a monthly allowance of inline suggestions and AI credits
 
 ### Day 4 - Better analyses 
 
