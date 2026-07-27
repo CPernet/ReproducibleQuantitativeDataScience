@@ -34,7 +34,7 @@ We are using Melanies' ice cream count to fit different regression models.
 
 # 4. Add independent testing
 
-Start a new chat. Add the context.
+Start a new chat. Add the context. (should you use a different model?)
 New prompt:
 
 ```Plain
