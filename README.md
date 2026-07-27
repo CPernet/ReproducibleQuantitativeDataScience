@@ -44,15 +44,17 @@ Using your PhD research data, protocol, code, etc, write a report explaining fro
 - Time to update your code - implement some of the practices discussed today using agentic coding, let's review each other work/discuss. Tip: don't forget to version control your code, makes it easier to see what the agent changes.
 
 *Please prepare before the course*:  
-Install [VSCode](https://code.visualstudio.com/download), open it and sign into your github account.  Make sure agents are enabled in your VS Code settings. You can use Copilot for free by signing up for the [Copilot Free plan](https://github.com/settings/copilot/features) and get a monthly allowance of inline suggestions and AI credits
-
+- Install [VSCode](https://code.visualstudio.com/download), open it and sign into your github account.  Make sure agents are enabled in your VS Code settings. You can use Copilot for free by signing up for the [Copilot Free plan](https://github.com/settings/copilot/features) and get a monthly allowance of inline suggestions and AI credits
+- Install python for [windows](https://www.python.org/downloads/) or [mac](https://www.python.org/downloads/macos/)  
+   
 ### Day 4 - Better analyses 
 
 - Understanding p-values (see [notebook](https://github.com/CPernet/ReproducibleQuantitativeDataScience/tree/main/p_values))
 - [P-hacking](https://github.com/CPernet/ReproducibleQuantitativeDataScience/blob/main/lecture_slides/2.04_Hacking_HARKing_and_SHARKING_your_research.pdf) your data  
 - Feedback on coursework and discuss further issues to make your PhD reproducible  
 - [Computational reproducibility] the lecture is inpired by the 2023/2024/2025 lecture from Michael Hanke see his repository [here](https://files.inm7.de/mih/pres/talks/rdm_reproducibility_copenhagen2023.html) (lecture and practical all afternoon). 
-
+- Time to update your code - implement environment control using agentic coding. Tip: VS code has a docker extension.  
+ 
 *Please prepare before the course*:
 - [install docker on your own machine](https://docs.docker.com/engine/install/) so you can use a container and then build a container. For wondows users, you need 1st to have the linux subsystem insalled (in power shaell, type ```wsl-ext --install```)
 - [install uv](https://docs.astral.sh/uv/getting-started/installation/) this is a package managment + virtual environment that plays well with python
