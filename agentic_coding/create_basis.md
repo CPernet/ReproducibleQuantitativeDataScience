@@ -70,18 +70,18 @@ We are using Melanies' ice cream count to fit different regression models.
 1. add SPEC.md and AGENT.md to the context
 2. prompt to make a plan
    ```Plain
-   "Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. I want [...]"
+   Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. I want [...]
    ```
 3. Answer questions, add things that 'may' be needed to good programing and coding.
 4. Execute the plan and git add/commit.
 5. Add testing.
    ```Plain
-   Generate unit tests for IceCreamRegression.py we just completed. [...]. Use the pytest testing framework.
+   Generate unit tests for IceCreamRegression.py we just completed. [...]. Use the pytest testing framework. Git commit once finished.
    ```
 
 # 4. Add independent testing
 
-Start a new chat. Add the context.
+**Start a new chat** (remove in context learning). **Should you use a different model?**
 New prompt:
 
 ```Plain
