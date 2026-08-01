@@ -1,0 +1,17 @@
+[project]
+name = "mels-icecream-analysis"
+version = "0.1.0"
+description = "Regression analysis of Mel's ice-cream data"
+requires-python = "==3.11.*"
+dependencies = [
+  "matplotlib>=3.9,<4",
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<4",
+  "scikit-learn>=1.5,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

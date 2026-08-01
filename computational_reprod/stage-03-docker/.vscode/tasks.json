@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Stage 3: build image",
+      "type": "shell",
+      "command": "docker",
+      "args": ["build", "-t", "mels-icecream:lesson", "."],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 3: run container",
+      "type": "shell",
+      "command": "docker",
+      "args": ["run", "--rm", "-v", "${workspaceFolder}/data:/data/input:ro", "-v", "${workspaceFolder}/outputs:/data/output", "mels-icecream:lesson"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 3: test source with uv",
+      "type": "shell",
+      "command": "uv",
+      "args": ["run", "--frozen", "python", "-m", "pytest", "-q"],
+      "problemMatcher": []
+    }
+  ]
+}

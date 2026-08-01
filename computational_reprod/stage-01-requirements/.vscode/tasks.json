@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Stage 1: install requirements",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "pip", "install", "-r", "requirements.txt"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 1: run analysis",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["run_analysis.py", "--input", "data/data.csv", "--output", "outputs", "--predict-temperature", "40"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 1: test",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": ["-m", "pytest", "-q"],
+      "problemMatcher": []
+    }
+  ]
+}

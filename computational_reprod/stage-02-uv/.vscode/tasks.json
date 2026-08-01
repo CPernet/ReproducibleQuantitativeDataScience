@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Stage 2: sync locked environment",
+      "type": "shell",
+      "command": "uv",
+      "args": ["sync", "--frozen"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 2: run analysis",
+      "type": "shell",
+      "command": "uv",
+      "args": ["run", "--frozen", "python", "run_analysis.py", "--input", "data/data.csv", "--output", "outputs", "--predict-temperature", "40"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 2: test",
+      "type": "shell",
+      "command": "uv",
+      "args": ["run", "--frozen", "python", "-m", "pytest", "-q"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Stage 2: check lock",
+      "type": "shell",
+      "command": "uv",
+      "args": ["lock", "--check"],
+      "problemMatcher": []
+    }
+  ]
+}
