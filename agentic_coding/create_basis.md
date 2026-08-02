@@ -87,3 +87,5 @@ New prompt:
 ```Plain
 Act as an independent test engineer. Read SPEC.md and inspect the implementation, but do not assume the implementation is correct. Identify missing behaviours, boundary cases, invalid inputs, and assumptions not currently tested. Add tests that would reveal plausible implementation defects. [...]. Git commit once finished.
 ```
+
+# 5. Use git history to check what happens

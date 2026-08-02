@@ -96,3 +96,5 @@ New prompt:
 ```Plain
 Act as an independent test engineer. Read SPEC.md and inspect the implementation, but do not assume the implementation is correct. Identify missing behaviours, boundary cases, invalid inputs, and assumptions not currently tested. Add tests that would reveal plausible implementation defects. Generate tests for all methods using made up data to match each regression model expectation and test if it works. Do not change the tests simply to make them run, unless there is a clear problem with the test itself. Generate a report on test results and make a plan for solution to implement (do not execute yet). Git commit once finished.
 ```
+
+# 5. Use git history to check what happens
