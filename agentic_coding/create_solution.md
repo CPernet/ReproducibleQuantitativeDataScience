@@ -79,7 +79,7 @@ We are using Melanies' ice cream count to fit different regression models.
 1. add SPEC.md and AGENT.md to the context
 2. prompt to make a plan
    ```Plain
-   Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. The workflow must follow the SPEC.md description. The design must follow the AGENT.md description. The data loader should take any file as input (but assuming column headers is ok). I need to also be able to predict non observed values, by default 40 degrees. Similalry, the default is to use all models, but this can be specified as an option. Write clean code with concise numpy-style docstrings. Comment trough the code. Use litterate programming with a header for IceCreamRegression.py. For each part of the workflow explain what is happening. Write a readme file to doucument the code and usage
+   Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. The workflow must follow the SPEC.md description. The design must follow the AGENT.md description. The data loader should take any file as input (but assuming column headers is ok). I need to also be able to predict non observed values, by default 40 degrees. Similalry, the default is to use all models, but this can be specified as an option. Write clean code with concise numpy-style docstrings. Comment trough the code. Use litterate programming with a header for IceCreamRegression.py. For each part of the workflow explain what is happening. Write a readme file to doucument the code and usage. Git commit once finished.
    ```
 3. Answer questions, add things that 'may' be needed to good programing and coding.
 4. Execute the plan and git add/commit.
@@ -94,5 +94,5 @@ We are using Melanies' ice cream count to fit different regression models.
 New prompt:
 
 ```Plain
-Act as an independent test engineer. Read SPEC.md and inspect the implementation, but do not assume the implementation is correct. Identify missing behaviours, boundary cases, invalid inputs, and assumptions not currently tested. Add tests that would reveal plausible implementation defects. Generate tests for all methods using made up data to match each regression model expectation and test if it works. Do not change the tests simply to make them run, unless there is a clear problem with the test itself. Generate a report on test results and make a plan for solution to implement (do not execute yet).
+Act as an independent test engineer. Read SPEC.md and inspect the implementation, but do not assume the implementation is correct. Identify missing behaviours, boundary cases, invalid inputs, and assumptions not currently tested. Add tests that would reveal plausible implementation defects. Generate tests for all methods using made up data to match each regression model expectation and test if it works. Do not change the tests simply to make them run, unless there is a clear problem with the test itself. Generate a report on test results and make a plan for solution to implement (do not execute yet). Git commit once finished.
 ```
