@@ -1,3 +1,6 @@
+
+Steps 1 and 2 are done in terminal (inside or outside VScode)
+
 # 1. Create a folder and always version control it (it will help following what the agent is doing)
 
 ```Shell
@@ -70,16 +73,20 @@ cat >> AGENT.md <<'EOF'
 EOF
 ```
 
-# 3. Next, make a plan
+Git commit your new files.
 
-Use the plan mode and the model you want (you can choose in the chat box among 'agent', 'chat', 'plan').
+# 3. Next, make a plan (in VS code)
+
+In VScode, make sure youare now inside the new repository (file --> Open folder). Use the plan mode (bottom right, 'in' the chat box among 'agent', 'chat', 'plan'), and the model you want (you can choose).
+
+In case you cannot see the option to switch to plan mode, you need to trust the reporsitory you made. Press 'Ctrl+Shift+P' and type 'Workspaces:Manage Workspace Trust'. Then select to trust the repository/folder you made above.
 
 We are using Melanies' ice cream count to fit different regression models.
 
 1. add SPEC.md and AGENT.md to the context
 2. prompt to make a plan
    ```Plain
-   Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. The workflow must follow the SPEC.md description. The design must follow the AGENT.md description. The data loader should take any file as input (but assuming column headers is ok). I need to also be able to predict non observed values, by default 40 degrees. Similalry, the default is to use all models, but this can be specified as an option. Write clean code with concise numpy-style docstrings. Comment trough the code. Use litterate programming with a header for IceCreamRegression.py. For each part of the workflow explain what is happening. Write a readme file to doucument the code and usage. Git commit once finished.
+   Make an analysis workflow to analyse the MelsIceCreamHabits.csv - let's call it IceCreamRegression.py. The workflow must follow the SPEC.md description. The design must follow the AGENT.md description. The data loader should take any file as input (but assuming column headers are ok). I need to also be able to predict non observed values, by default 40 degrees. Similarly, the default is to use all models, but this can be specified as an option. Write clean code with concise numpy-style docstrings. Comment through the code. Use litterate programming with a header for IceCreamRegression.py. For each part of the workflow explain what is happening. Write a readme file to document the code and usage. Git commit once finished.
    ```
 3. Answer questions, add things that 'may' be needed to good programing and coding.
 4. Execute the plan and git add/commit.
@@ -90,7 +97,7 @@ We are using Melanies' ice cream count to fit different regression models.
 
 # 4. Add independent testing
 
-**Start a new chat** (remove in context learning). **Should you use a different model?**
+**Start a new chat in agent or plan mode** (removes in context learning). **Should you use a different model?**
 New prompt:
 
 ```Plain
