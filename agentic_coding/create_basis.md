@@ -1,4 +1,4 @@
-# 1. Create a folder and always version control it (it will help following what the agent is doing)
+# 1. Create a folder and always version control it (it will help following what the agent is doing). Remember to replace the path to the folder with your own path!
 
 ```Shell
 mkdir /c/Users/adm-cyril/Downloads/MelsIceCream
