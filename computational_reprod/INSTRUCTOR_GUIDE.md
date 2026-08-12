@@ -13,18 +13,38 @@
 
 ## Preparation
 
-Install VS Code, Git, Python 3.11, uv, and Docker Desktop. On Windows, use the same PowerShell terminal throughout. Pre-build the image if classroom bandwidth is limited.
+Install VS Code, Git, Python 3.11, pip, uv, and Docker Desktop. On Windows, use the same PowerShell terminal throughout. Pre-build the image if classroom bandwidth is limited.
 
 ## Intended stage-1 friction
 
 The inherited `requirements.txt` pins a Python-3.11-era numerical stack. Installation under Python 3.12–3.14 may fail because compatible wheels are unavailable. Allow roughly five minutes for diagnosis:
 
+in windows
 ```powershell
 python --version
 python -m pip install -r requirements.txt
 ```
-
 Then expose the missing contract: the file never states which Python to use. Recover with `py -3.11 -m venv .venv`. Do not let this become a compiler exercise.
+
+else
+```bash
+python3 --version
+python3 -m pip install -r requirements.txt
+```
+
+Then expose the missing contract: the file never states which Python to use. Recover with
+
+```bash
+sudo apt update
+sudo apt install python3.11 python3.11-venv
+python3.11 -m venv .venv
+```
+
+or 
+```bash
+brew install python@3.11
+python3.11 -m venv .venv
+```
 
 ## Demonstration checkpoints
 
