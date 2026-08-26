@@ -4,15 +4,15 @@
 Containerize this verified uv-based scientific analysis. Inspect the repository and state a short plan before editing.
 
 Treat the image as an application with this default contract:
-- read /data/input/data.csv;
-- write only to /data/output;
+- read the data stored in MelsIceCreamHabit.csv;
+- write results to files called MelsIceCreamHabit_results;
 - accept the existing CLI overrides for input, output, and prediction temperature;
 - expect the input directory to be mounted read-only.
 
 Constraints:
-- Preserve data, scientific modules, tests, seed, model logic, CLI options, and these outputs: model_ranking.csv, summary.json, model_fits.png, model_scores.png.
+- Preserve data, scientific modules, tests, seed, model logic, CLI options, and the outputs for model ranking and fits.
 - Install from the existing pyproject.toml and uv.lock using --frozen.
-- Use Python 3.11, a multi-stage build, and a non-root runtime user.
+- Use the Python version originally used in this analysis in both project metadata and .python-version, a multi-stage build, and a non-root runtime user.
 - Keep uv, compilers, tests, teaching data, and development dependencies out of the final image.
 - Add .dockerignore.
 - Use ENTRYPOINT for run_analysis.py and CMD only for default arguments.
