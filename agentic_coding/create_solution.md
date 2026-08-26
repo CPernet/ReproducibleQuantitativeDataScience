@@ -93,6 +93,7 @@ We are using Melanies' ice cream count to fit different regression models.
 5. Add testing and git add/commit. The diff can help checking what has changed.
    ```Plain
    Generate unit tests for IceCreamRegression.py we just completed. Derive expected behaviour from the original requirements (SPEC.md), not merely from the current implementation. Include nominal cases, boundary conditions, malformed inputs, and regression cases. Use the pytest testing framework. Git commit once finished.
+6. Finalize the tests by running the analysis; use the agent to figure out how to run it if you need to. 
    ```
 
 # 4. Add independent testing
