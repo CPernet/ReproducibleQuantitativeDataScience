@@ -9,7 +9,7 @@ Constraints:
 - Preserve data/data.csv byte-for-byte.
 - Preserve the current src/ layout, scientific code, cleaning rules, eight model definitions, seed, CV procedure, CLI arguments, and four output filenames.
 - Do not redesign or package the analysis merely to make the migration look larger.
-- Declare Python 3.11 in both project metadata and .python-version.
+- Use the Python version originally used in this analysis in both project metadata and .python-version.
 - Create pyproject.toml with direct runtime dependencies and a separate development dependency group.
 - Generate uv.lock with uv; never hand-write it.
 - Update README and VS Code tasks to use uv sync, uv run, and uv lock --check.
@@ -19,9 +19,9 @@ Constraints:
 Verification:
 1. uv sync
 2. uv run python -m pytest -q
-3. uv run python run_analysis.py --input data/data.csv --output outputs --predict-temperature 40
+3. uv run python src/IceCreamRegression.py MelsIceCreamHabits.csv --models poly1 --predict-temp 40
 4. uv lock --check
-5. compare model_ranking.csv and summary.json with the pre-migration artifacts
+5. compare the outputs after running uv to earlier outputs which are named "*_original.*" and "*_requirements.*"
 6. report changed files, commands, and any numerical differences
 
 If anything fails, diagnose it rather than weakening tests or changing the analysis.
