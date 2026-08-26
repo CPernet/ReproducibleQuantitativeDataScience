@@ -12,7 +12,7 @@ This VS Code tutorial holds one scientific analysis constant while progressively
 
 1. Open the repository you previously made for the ice cream analysis in VS Code.
 2. Read [`tutorial/00-overview.md`](tutorial/00-overview.md).
-3. Complete stages 1–3 in order.
+3. Complete the following tutorials [`../tutorial/01-requirements.md`](../tutorial/01-requirements.md), [`../tutorial/02-uv.md`](../tutorial/02-uv.md)  and [`../tutorial/03-docker.md`](../tutorial/03-docker.md) in order.
 4. Use the prompts in `prompts/` only when instructed.
 
 Each stage uses the same command-line contract and produces four artifacts:
