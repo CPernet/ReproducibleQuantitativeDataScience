@@ -2,43 +2,42 @@
 
 Open `stage-01-requirements` as the VS Code folder. Optionally copy it and initialize Git so every later agent change is inspectable.
 
-## 1. Diagnose before editing
-
-Under windows
-```powershell
-python --version
-python -m pip --version
-python -m pip install -r requirements.txt
-```
-
-Under Linux/Mac
-```bash
-python3 --version
-python3 -m pip --version
-python3 -m pip install -r requirements.txt
-```
-
-Note, you may also need to install pipx instead of pip under Linux.
-
-If installation fails, identify the first incompatible package and ask what assumption the repository failed to declare. Stop after about five minutes.
-
-## 2. Create the intended environment
+## 1. Create the intended environment
 
 Windows PowerShell:
 
 ```powershell
-py -3.11 -m venv .venv
+py -3 -m venv .venv
 .venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-macOS/Linux uses `python3.11 -m venv .venv` and `source .venv/bin/activate`. In VS Code, run **Python: Select Interpreter** and choose `.venv`.
+MacOS/Linux:
 
-## 3. Test and run
+```bash
+ python3 -m venv .venv
+ source .venv/bin/activate
+ python3 -m pip install --upgrade pip
+ python3 -m pip install -r requirements.txt
+ ```
+
+
+In VS Code, run **Python: Select Interpreter** and choose `.venv`.
+
+## 2. Test and run
+
+Windows PowerShell:
 
 ```powershell
 python -m pytest -q
+python run_analysis.py --input data/data.csv --output outputs --predict-temperature 40
+```
+
+MacOS/Linux:
+
+```bash
+python3 -m pytest -q
 python run_analysis.py --input data/data.csv --output outputs --predict-temperature 40
 ```
 
