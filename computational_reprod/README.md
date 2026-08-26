@@ -10,7 +10,7 @@ This VS Code tutorial holds one scientific analysis constant while progressively
 
 ## Start
 
-1. Open this repository in VS Code.
+1. Open the repository you previously made for the ice cream analysis in VS Code.
 2. Read [`tutorial/00-overview.md`](tutorial/00-overview.md).
 3. Complete stages 1–3 in order.
 4. Use the prompts in `prompts/` only when instructed.

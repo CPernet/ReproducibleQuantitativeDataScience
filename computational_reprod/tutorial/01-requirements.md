@@ -4,11 +4,21 @@ Open `stage-01-requirements` as the VS Code folder. Optionally copy it and initi
 
 ## 1. Diagnose before editing
 
+Under windows
 ```powershell
 python --version
 python -m pip --version
 python -m pip install -r requirements.txt
 ```
+
+Under Linux/Mac
+```bash
+python3 --version
+python3 -m pip --version
+python3 -m pip install -r requirements.txt
+```
+
+Note, you may also need to install pipx instead of pip under Linux.
 
 If installation fails, identify the first incompatible package and ask what assumption the repository failed to declare. Stop after about five minutes.
 
