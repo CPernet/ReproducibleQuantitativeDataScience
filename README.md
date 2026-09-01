@@ -72,4 +72,5 @@ Improve code you are using based on the concepts and tools reviewed over the 4 d
 
 - The ‘data’ cycle, [sharing from raw data to figures](https://github.com/CPernet/ReproducibleQuantitativeDataScience/blob/main/lecture_slides/3.01_DataSharing.pdf) - lecture
 - [Reproducible publishing](https://github.com/CPernet/ReproducibleQuantitativeDataScience/blob/main/lecture_slides/3.02_OpenPublishing.pdf) - [see example here](https://preprint.neurolibre.org/10.55458/neurolibre.00014/)
-- Presentations and discussions/social event (drinks and pizza)
+- [Reviewing Peer review](https://github.com/CPernet/ReproducibleQuantitativeDataScience/blob/main/lecture_slides/3.02_OpenPublishing.pdf)
+
