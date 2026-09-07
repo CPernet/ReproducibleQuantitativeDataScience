@@ -26,6 +26,16 @@ MacOS/Linux:
  python3 -m pip install -r requirements.txt
  ```
 
+# for python3.12 use other requirements:
+
+```bash
+ python3 -m venv .venv
+ source .venv/bin/activate
+ python3 -m pip install --upgrade pip
+ python3 -m pip install -r requirements_py312.txt
+```
+
+
 In VS Code, press Ctrl+Shift+P, run **Python: Select Interpreter** and choose `.venv`.
 
 ## 2. Test and run
@@ -37,15 +47,17 @@ Windows PowerShell:
 ```powershell
 python -m pytest -q
 python src/IceCreamRegression.py MelsIceCreamHabits.csv
-python src/IceCreamRegression.py MelsIceCreamHabits.csv --models poly1 --predict-temp 40
+python src/IceCreamRegression.py data/data.csv --models poly1_intercept --prediction-temperature 40
+python run_analysis.py --input data/data.csv --output /outputs --predict-temperature 40
 ```
 
 MacOS/Linux:
 
 ```bash
 python3 -m pytest -q
-python src/IceCreamRegression.py MelsIceCreamHabits.csv
-python src/IceCreamRegression.py MelsIceCreamHabits.csv --models poly1 --predict-temp 40
+python src/IceCreamRegression.py data/data.csv
+python src/IceCreamRegression.py data/data.csv --models poly1_intercept --prediction-temperature 40
+python run_analysis.py --input data/data.csv --output outputs --predict-temperature 40
 ```
 
 The original console-only running of the code should also still work:
